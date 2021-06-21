@@ -1,0 +1,1 @@
+This project is a test of my skills by trying to recreate the Google Homepage. 
