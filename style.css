@@ -1,3 +1,52 @@
 body{
     background-color: white;
 }
+img{
+    margin:auto;
+    max-width:100%;
+    height: auto;
+}
+main{
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    margin: 7% 15%;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    align-content: inherit;
+}
+header{
+    display: flex;
+    flex-direction: row-reverse;
+}
+input{
+    display: block;
+    border-color: #dfe1e5;
+    padding:5px;
+    border-radius: 15px;
+    border-style: solid;
+    margin: 7px auto 40px;
+}
+input:focus{
+    outline: none;
+}
+button{
+    width:fit-content;
+}
+footer{
+    display: block;
+    background-color: #dadce0;
+}
+
+footer nav{
+    display: flex;
+    justify-content: space-between;
+    border-top: 1px solid #c2c3c7;
+}
+div#custombutton{
+    display: flex;
+    flex-direction: row;
+    justify-content:center;
+}
