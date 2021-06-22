@@ -3,14 +3,22 @@
     <head>
         <title>Google</title>
         <link rel="stylesheet" href="style.css">
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
     </head>
     <body>
         <header>
             <nav>
                 <a href="#">Gmail</a>
                 <a href="#">Images</a>
-                <a href="#">Apps</a>
-                <a href="#">Sign In</a>
+                <a href="#">
+                    <span class="material-icons">
+                        apps
+                    </span>
+                </a>
+                <a href="#" id="IDCircle">
+                    <img src="https://lh3.googleusercontent.com/ogw/ADea4I7f-V6RIWVZpZudhgDZvbklVPTiL8OHE0FKdLEDOg=s192-c-mo" height=32px width=32px>
+                </a>
             </nav>
         </header>
         <br>
@@ -19,6 +27,9 @@
             <br>
             <form action="#">
                 <input id="SearchBar" type="search" size=48>
+                <!-- <span class="material-icons" id="SearchIcon">
+                    search
+                </span> -->
                 <div id="custombutton">
                     <button type="submit">Google Search</button>
                     <button type="submit">I'm Feeling Lucky</button>
@@ -27,7 +38,7 @@
         </main>
         <footer>
             <p>India</p>
-            <br>
+            <hr>
             <nav>
                 <div id="About">
                     <a href="#">About</a>

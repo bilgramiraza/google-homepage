@@ -16,10 +16,12 @@ form{
     display: flex;
     flex-direction: column;
     align-content: inherit;
+    position: relative;
 }
 header{
     display: flex;
-    flex-direction: row-reverse;
+    flex-direction: row;
+    justify-content:flex-end;
 }
 input{
     display: block;
@@ -37,16 +39,47 @@ button{
 }
 footer{
     display: block;
-    background-color: #dadce0;
+    background-color: #f2f2f2;
+    position: fixed;
+    bottom: 0;
+    left:0;
+    width:100%;
 }
 
 footer nav{
     display: flex;
     justify-content: space-between;
-    border-top: 1px solid #c2c3c7;
+}
+
+header nav {
+    display: flex;
+    flex-direction: row;
+    width: 20%;
+    justify-content: space-between;
+    justify-items: baseline;
+    align-items: center;
 }
 div#custombutton{
     display: flex;
     flex-direction: row;
     justify-content:center;
 }
+a{
+    text-decoration: none;
+    color:#5f6368;
+}
+
+#IDCircle img{
+    border-radius: 50%;
+}
+
+#SearchBar{
+    padding:7px 32px;
+}
+
+/* #SearchIcon{
+    display:unset;
+    position: absolute;
+    left: 16%;
+    bottom: 65%;
+} */
